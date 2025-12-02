@@ -8,7 +8,7 @@ public class ColorsSchema implements TextColorSchema {
 
     public ColorsSchema(String palitra) {
         if (palitra.isEmpty()) {
-            this.schema = "'-+*%@$#".toCharArray();
+            this.schema = "@$%#*+-'".toCharArray();
         } else {
             this.schema = palitra.toCharArray();
         }
